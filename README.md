@@ -1,6 +1,6 @@
 # npmtest-gulp-file
 
-#### test coverage for  [gulp-file (v0.3.0)](https://github.com/alexmingoia/gulp-file)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-file.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-file) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-file.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-file)
+#### basic test coverage for  [gulp-file (v0.3.0)](https://github.com/alexmingoia/gulp-file)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-file.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-file) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-file.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-file)
 
 #### Create vinyl files from a string or buffer and insert into the Gulp pipeline.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-file/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-file/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-file/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-file/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-file/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-file/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-file/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-file/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-file/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-file/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-file/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-file/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
     "scripts": {
         "test": "./node_modules/mocha/bin/mocha test --recursive --reporter spec"
     },
-    "version": "0.3.0"
+    "version": "0.3.0",
+    "bin": {}
 }
 ```
 
